@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kullanıcı Hesap İşlemleri</title>
+</head>
+<body>
+	
+	<h3>Kullanıcı Hesabı Oluştur</h3>
+	<form id="userAccountCreate" action="/chapter7-servlet-basics/user/account" method="POST">
+		Kullanıcı Adı: <input type="text" name="username"> <br/> 
+		Email: 		   <input type="text" name="email" /> <br/>
+		Şifre: 		   <input type="password" name="password" /> <br/>
+		<input type="hidden" name="x-api-key" value="t2" />
+		<input type="submit" name="save" value="Kaydet" />
+	</form>
+	
+</body>
+</html>
